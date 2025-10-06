@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="lapshin-studio.xsd"
-             date="2024-01-15 12:00">
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2024-01-15 12:00">
   <shop>
     <name>Lapshin Studio</name>
     <company>Lapshin Studio</company>
@@ -13,36 +12,107 @@
     </currencies>
     
     <categories>
-      <category id="1">Разработка сайтов</category>
-      <category id="2">Техническая поддержка</category>
+      <category id="1">Исполнитель</category>
+      <category id="18" parentId="1">Компьютеры и IT</category>
+      <category id="19" parentId="1">Дизайнеры</category>
     </categories>
     
     <offers>
       <offer id="1" available="true">
-        <name>Разработка лэндинга (одностраничный сайт)</name>
-        <categoryId>1</categoryId>
+        <name>Lapshin Studio</name>
+        <url>https://lapshinstudio.ru/landing</url>
         <price>35000</price>
         <currencyId>RUB</currencyId>
-        <description>Создание одностраничного сайта для привлечения клиентов. Срок выполнения 28-30 дней</description>
-        <url>https://lapshinstudio.ru</url>
+        <categoryId>18</categoryId>
+        <set-ids>s1,s2</set-ids>
+        <picture>https://lapshinstudio.ru/logo.png</picture>
+        <description>Разработка лэндинга (одностраничный сайт)</description>
+        <param name="Рейтинг">4.9</param>
+        <param name="Число отзывов">15</param>
+        <param name="Годы опыта">5</param>
+        <param name="Регион">Москва</param>
+        <param name="Конверсия">85</param>
+        <param name="Ссылка на телефон">tel:+79876292725</param>
+        <param name="Ссылка на чат">https://wa.me/79876292725</param>
+        <param name="Ссылка на создание заказа">https://lapshinstudio.ru/order</param>
+        <param name="Ссылка на профиль исполнителя">https://lapshinstudio.ru/profile</param>
+        <sales_notes>Цена указана за базовый пакет</sales_notes>
+        <expiry>P1Y</expiry>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется удаленно">true</param>
+        <param name="Выполняется по адресу исполнителя">false</param>
+        <param name="Выполняется по адресу заказчика">false</param>
+        <param name="Бригада">false</param>
+        <param name="Об исполнителе">Профессиональная разработка сайтов с 2019 года. Специализируемся на создании современных и эффективных веб-решений для бизнеса.</param>
+        <param name="Отзыв на исполнителя - 1" unit="5">Отличная работа! Сайт запустили вовремя, все пожелания учли.</param>
+        <param name="Отзыв на исполнителя - 2" unit="4.8">Качественно и профессионально. Рекомендую!</param>
+        <param name="Другая услуга исполнителя - 1">Разработка корпоративного сайта</param>
+        <param name="Другая услуга исполнителя - 2">Поддержка сайта</param>
       </offer>
       
       <offer id="2" available="true">
-        <name>Разработка корпоративного сайта (многостраничный сайт)</name>
-        <categoryId>1</categoryId>
+        <name>Lapshin Studio</name>
+        <url>https://lapshinstudio.ru/corporate</url>
         <price>65000</price>
         <currencyId>RUB</currencyId>
-        <description>Создание многостраничного корпоративного сайта для бизнеса. Срок выполнения 35 дней</description>
-        <url>https://lapshinstudio.ru</url>
+        <categoryId>18</categoryId>
+        <set-ids>s1,s3</set-ids>
+        <picture>https://lapshinstudio.ru/logo2.png</picture>
+        <description>Разработка корпоративного сайта (многостраничный сайт)</description>
+        <param name="Рейтинг">4.9</param>
+        <param name="Число отзывов">15</param>
+        <param name="Годы опыта">5</param>
+        <param name="Регион">Москва</param>
+        <param name="Конверсия">90</param>
+        <param name="Ссылка на телефон">tel:+79876292725</param>
+        <param name="Ссылка на чат">https://t.me/LapshinStudio</param>
+        <param name="Ссылка на создание заказа">https://lapshinstudio.ru/order-corporate</param>
+        <param name="Ссылка на профиль исполнителя">https://lapshinstudio.ru/profile</param>
+        <sales_notes>Срок выполнения 35 дней</sales_notes>
+        <expiry>P1Y</expiry>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется удаленно">true</param>
+        <param name="Выполняется по адресу исполнителя">false</param>
+        <param name="Выполняется по адресу заказчика">false</param>
+        <param name="Бригада">false</param>
+        <param name="Об исполнителе">Профессиональная разработка сайтов с 2019 года. Специализируемся на создании современных и эффективных веб-решений для бизнеса.</param>
+        <param name="Отзыв на исполнителя - 1" unit="5">Сделали отличный корпоративный сайт. Все структурно и понятно.</param>
+        <param name="Другая услуга исполнителя - 1">Разработка лэндинга</param>
+        <param name="Другая услуга исполнителя - 2">Поддержка сайта</param>
       </offer>
       
       <offer id="3" available="true">
-        <name>Поддержка сайта</name>
-        <categoryId>2</categoryId>
-        <price>10000</price>
+        <name>Lapshin Studio</name>
+        <url>https://lapshinstudio.ru/support</url>
+        <price from="true">10000</price>
         <currencyId>RUB</currencyId>
-        <description>Обновление контента, создание копий сайта для разных городов. Ежемесячная оплата</description>
-        <url>https://lapshinstudio.ru</url>
+        <categoryId>18</categoryId>
+        <set-ids>s1,s4</set-ids>
+        <picture>https://lapshinstudio.ru/logo3.png</picture>
+        <description>Поддержка сайта</description>
+        <param name="Рейтинг">4.9</param>
+        <param name="Число отзывов">15</param>
+        <param name="Годы опыта">5</param>
+        <param name="Регион">Москва</param>
+        <param name="Конверсия">95</param>
+        <param name="Ссылка на телефон">tel:+79876292725</param>
+        <param name="Ссылка на чат">https://wa.me/79876292725</param>
+        <param name="Ссылка на создание заказа">https://lapshinstudio.ru/order-support</param>
+        <param name="Ссылка на профиль исполнителя">https://lapshinstudio.ru/profile</param>
+        <sales_notes>Ежемесячная оплата, цена от 10000 руб.</sales_notes>
+        <expiry>P1M</expiry>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется удаленно">true</param>
+        <param name="Выполняется по адресу исполнителя">false</param>
+        <param name="Выполняется по адресу заказчика">false</param>
+        <param name="Бригада">false</param>
+        <param name="Об исполнителе">Профессиональная разработка сайтов с 2019 года. Специализируемся на создании современных и эффективных веб-решений для бизнеса.</param>
+        <param name="Отзыв на исполнителя - 1" unit="5">Надежная поддержка, оперативно решают все вопросы.</param>
+        <param name="Другая услуга исполнителя - 1">Разработка лэндинга</param>
+        <param name="Другая услуга исполнителя - 2">Разработка корпоративного сайта</param>
       </offer>
     </offers>
   </shop>
