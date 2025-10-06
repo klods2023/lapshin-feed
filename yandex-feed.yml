@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2024-01-15 12:00">
+  <shop>
+    <name>Lapshin Studio</name>
+    <company>Lapshin Studio</company>
+    <url>https://lapshinstudio.ru</url>
+    <email>klods2010@yandex.ru</email>
+    
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    
+    <categories>
+      <category id="1">Разработка сайтов</category>
+      <category id="2">Техническая поддержка</category>
+    </categories>
+    
+    <offers>
+      <offer id="1" available="true">
+        <name>Разработка лэндинга (одностраничный сайт)</name>
+        <categoryId>1</categoryId>
+        <price>35000</price>
+        <currencyId>RUB</currencyId>
+        <description>Создание одностраничного сайта для привлечения клиентов. Срок выполнения 28-30 дней</description>
+        <url>https://lapshinstudio.ru#landing</url>
+      </offer>
+      
+      <offer id="2" available="true">
+        <name>Разработка корпоративного сайта (многостраничный сайт)</name>
+        <categoryId>1</categoryId>
+        <price>65000</price>
+        <currencyId>RUB</currencyId>
+        <description>Создание многостраничного корпоративного сайта для бизнеса. Срок выполнения 35 дней</description>
+        <url>https://lapshinstudio.ru#corporate</url>
+      </offer>
+      
+      <offer id="3" available="true">
+        <name>Поддержка сайта</name>
+        <categoryId>2</categoryId>
+        <price>10000</price>
+        <currencyId>RUB</currencyId>
+        <description>Обновление контента, создание копий сайта для разных городов. Ежемесячная оплата</description>
+        <url>https://lapshinstudio.ru#support</url>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
