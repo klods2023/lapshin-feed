@@ -22,7 +22,7 @@
         <price>35000</price>
         <currencyId>RUB</currencyId>
         <description>Создание одностраничного сайта для привлечения клиентов. Срок выполнения 28-30 дней</description>
-        <url>https://lapshinstudio.ru#landing</url>
+        <url>https://lapshinstudio.ru</url>
       </offer>
       
       <offer id="2" available="true">
@@ -31,7 +31,7 @@
         <price>65000</price>
         <currencyId>RUB</currencyId>
         <description>Создание многостраничного корпоративного сайта для бизнеса. Срок выполнения 35 дней</description>
-        <url>https://lapshinstudio.ru#corporate</url>
+        <url>https://lapshinstudio.ru</url>
       </offer>
       
       <offer id="3" available="true">
@@ -40,7 +40,7 @@
         <price>10000</price>
         <currencyId>RUB</currencyId>
         <description>Обновление контента, создание копий сайта для разных городов. Ежемесячная оплата</description>
-        <url>https://lapshinstudio.ru#support</url>
+        <url>https://lapshinstudio.ru</url>
       </offer>
     </offers>
   </shop>
