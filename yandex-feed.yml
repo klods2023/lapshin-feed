@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2024-01-15 12:00">
+<yml_catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="lapshin-studio.xsd"
+             date="2024-01-15 12:00">
   <shop>
     <name>Lapshin Studio</name>
     <company>Lapshin Studio</company>
